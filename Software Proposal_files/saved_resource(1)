@@ -1,0 +1,10 @@
+if (window['google'] != undefined && window['google']['loader'] != undefined) {
+if (!window['google']['visualization']) {
+window['google']['visualization'] = {};
+google.visualization.Version = '1.1';
+google.visualization.JSHash = '760702f7b56bd967c887f2c9118815e6';
+google.visualization.LoadArgs = 'file\x3dvisualization\x26v\x3d1.1\x26packages\x3dcorechart%2Ctable\x26async\x3d2';
+}
+google.loader.writeLoadTag("css", google.loader.ServiceBase + "/api/visualization/1.1/760702f7b56bd967c887f2c9118815e6/ui+ru,table+ru.css", true);
+google.loader.writeLoadTag("script", google.loader.ServiceBase + "/api/visualization/1.1/760702f7b56bd967c887f2c9118815e6/webfontloader,format+ru,default+ru,ui+ru,table+ru,corechart+ru.I.js", true);
+}
